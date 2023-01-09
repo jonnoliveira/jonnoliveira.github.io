@@ -1,0 +1,123 @@
+.popup-container {
+  position: absolute;
+  z-index: 3;
+  background: #000;
+  padding: 13vh 5vw 13vh 5vw;
+}
+
+.close-button-container {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: #fff;
+  margin: 20px;
+  right: 5vw;
+  top: 5vh;
+  border-radius: 50%;
+}
+
+.close-button-container::before,
+.close-button-container::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
+  transition: 0.2s;
+  border-radius: 50%;
+}
+
+.close-button-container:hover::before {
+  inset: -3px;
+}
+
+.close-button-container:hover::after {
+  inset: -3px;
+  filter: blur(10px);
+}
+
+.close-button {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: #000;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 43%;
+}
+
+.close-button img {
+  width: 40%;
+}
+
+.popup-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10vh;
+}
+
+.popup-contents h1 {
+  padding-bottom: 2vh;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.popup-contents p {
+  width: 90%;
+  text-align: justify;
+  line-height: 5vh;
+  font-size: 1.2em;
+}
+
+.link-repository,
+.link-github-pages {
+  width: 12vw;
+  height: 8vh;
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.link-repository::before,
+.link-repository::after,
+.link-github-pages::before,
+.link-github-pages::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
+  transition: 0.2s;
+  border-radius: 30px;
+}
+
+.link-repository:hover::before,
+.link-github-pages:hover::before {
+  inset: -3px;
+}
+
+.link-repository:hover::after,
+.link-github-pages:hover::after {
+  inset: -3px;
+  filter: blur(10px);
+}
+
+.link-repository a,
+.link-github-pages a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: #696767b0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+}

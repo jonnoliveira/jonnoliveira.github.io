@@ -1,0 +1,350 @@
+.home-container {
+  height: 100vh;
+  background: url("../media//bg_universebottle.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.home-container::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #0001 0%, #000 100%);
+}
+
+.name-container {
+  position: absolute;
+  top: 35vh;
+  left: 35vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.name-container h2 {
+  font-weight: 200;
+  font-size: 2em;
+  border: 1px solid #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.metamorphosis {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+  padding-top: 3vh;
+}
+
+.metamorphosis h1 {
+  position: absolute;
+  transform: translate(-50% -50%);
+  animation: morph-effect 10s infinite ease-in-out;
+  font-weight: 200;
+  font-size: 3em;
+}
+
+.metamorphosis h1:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.metamorphosis h1:nth-child(1) {
+  animation-delay: -5s;
+}
+
+@keyframes morph-effect {
+
+  0%,
+  20%,
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+
+  40%,
+  80% {
+    filter: blur(16px);
+    opacity: 0;
+  }
+}
+
+.arrow-container {
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+}
+
+.arrow-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  width: 10px;
+  height: 40px;
+  background: #fff;
+  border-radius: 5px;
+  margin: 6px;
+  animation: move 1.1s infinite ease-in-out;
+  box-shadow: 0 0 10px #fff;
+}
+
+.arrow:nth-of-type(1) {
+  transform: rotate(-45deg);
+}
+
+.arrow:nth-of-type(2) {
+  transform: rotate(45deg);
+}
+
+@keyframes move {
+  0% {
+    margin-top: 0;
+  }
+
+  50% {
+    margin-top: 100px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
+/* 
+@media screen and (max-width: 2560px) {
+
+  .name-contents h2 {
+    font-size: 3em;
+  }
+
+  .name-contents h1 {
+    font-size: 6em;
+  }
+
+  .name-contents p {
+    font-size: 3em;
+  }
+
+  .arrow {
+    width: 20px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 2170px) {
+
+  .name-contents h2 {
+    font-size: 2em;
+  }
+
+  .name-contents h1 {
+    font-size: 5em;
+  }
+
+  .name-contents p {
+    font-size: 2em;
+  }
+
+  .arrow {
+    width: 20px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 1927px) {
+
+  .arrow {
+    width: 15px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+
+  .name-container {
+    left: 35vw;
+  }
+
+  .name-contents h1 {
+    font-size: 4em;
+  }
+
+  .arrow {
+    width: 15px;
+    height: 50px;
+  }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+  .name-container {
+    left: 35vw;
+  }
+
+  .name-contents h2 {
+    font-size: 1.4em;
+  }
+
+  .name-contents h1 {
+    font-size: 3em;
+  }
+
+  .name-contents p {
+    font-size: 1.4em;
+  }
+
+  .arrow-container {
+    top: 35vh;
+  }
+
+  .arrow {
+    width: 10px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .name-container {
+    left: 46vw;
+  }
+
+  .name-contents h2 {
+    font-size: 1.2em;
+  }
+
+  .name-contents h1 {
+    font-size: 2em;
+  }
+
+  .name-contents p {
+    font-size: 1.2em;
+  }
+
+  .arrow-container {
+    top: 30vh;
+  }
+
+  .arrow {
+    width: 6px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .name-container {
+    left: 45vw;
+    top: 35vh;
+  }
+
+  .name-contents h2 {
+    font-size: 1.1em;
+  }
+
+  .name-contents h1 {
+    font-size: 1.6em;
+  }
+
+  .name-contents p {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 630px) {
+
+  .name-container {
+    left: 35vw;
+    top: 35vh;
+  }
+
+  .name-contents h2 {
+    font-size: 1em;
+  }
+
+  .name-contents h1 {
+    font-size: 1.6em;
+  }
+
+  .name-contents p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 530px) {
+
+  .name-container {
+    left: 25vw;
+  }
+
+  .arrow-container {
+    top: 25vh;
+    left: 30vw;
+  }
+
+  .arrow {
+    width: 5px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  .home-container::before {
+    height: 85%;
+  }
+
+  .name-contents h1 {
+    font-size: 1.4em;
+  }
+
+  .arrow-container {
+    top: 35vh;
+    left: 25vw;
+  }
+
+  .arrow {
+    width: 3px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .name-contents h2 {
+    font-size: 0.9em;
+    font-weight: 500;
+
+  }
+
+  .name-contents h1 {
+    font-size: 1.2em;
+    font-weight: 500;
+
+  }
+
+  .name-contents p {
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .name-contents h1 {
+    font-size: 1em;
+  }
+
+  .name-contents p {
+    font-size: 0.7em;
+  }
+} */

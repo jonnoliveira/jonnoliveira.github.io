@@ -1,0 +1,131 @@
+.contact-container {
+  min-height: 80vh;
+  color: #fff;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+}
+
+.contact-description {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 2em;
+  padding-right: 1em;
+  border: 2px solid #fff;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  text-align: justify;
+
+}
+
+.contact-description p {
+  font-size: 1.2em;
+}
+
+.contact-contents {
+  width: 100vh;
+  margin-top: 15vh;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.contents {
+  display: flex;
+  padding: 3vh 0 3vh 0;
+  gap: 5vw;
+}
+
+.email-content {
+  width: 24vw;
+  height: 4vw;
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  margin: 20px;
+  color: #000;
+}
+
+.email-content::before,
+.email-content::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
+  transition: 0.2s;
+}
+
+.email-content:hover::before {
+  inset: -3px;
+}
+
+.email-content:hover::after {
+  inset: -3px;
+  filter: blur(10px);
+}
+
+.email {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: #696767b0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.email img {
+  width: 2vw;
+}
+
+.linkedin-content {
+  width: 24vw;
+  height: 4vw;
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  margin: 20px;
+  color: #000;
+}
+
+.linkedin-content::before,
+.linkedin-content::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
+  transition: 0.2s;
+}
+
+.linkedin-content:hover::before {
+  inset: -3px;
+}
+
+.linkedin-content:hover::after {
+  inset: -3px;
+  filter: blur(10px);
+}
+
+.linkedin {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: #696767b0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.linkedin img {
+  width: 2vw;
+}

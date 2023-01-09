@@ -1,0 +1,460 @@
+.container {
+  width: 100%;
+  background-color: #000;
+  padding: 2em;
+  color: #fff;
+}
+
+.presentation-container {
+  display: flex;
+  justify-content: center;
+}
+
+.heading-container {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 1em;
+  border: 2px solid #fff;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  gap: 2em;
+}
+
+.heading-container p {
+  font-size: 1.2em;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: 1;
+  box-shadow: 0 0 5px white;
+  animation: moveline 8s linear infinite;
+}
+
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+.content {
+  /* padding: 10px 50px; */
+  position: relative;
+  /* width: 50%; */
+  /* top: 50vh; */
+}
+
+.right-content .dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  left: -27px;
+  top: 32px;
+  z-index: 5;
+}
+
+.left-content .dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  right: -15px;
+  top: 32px;
+  z-index: 5;
+}
+
+.right-content .dot {
+  border: 1px solid #fff;
+  box-shadow: 0 0 5px white;
+}
+
+.left-content .dot {
+  border: 1px solid #fff;
+  box-shadow: 0 0 5px white;
+}
+
+.text-box {
+  padding: 20px 30px;
+  background: #fff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 0.8em;
+  color: #000;
+  text-align: justify;
+}
+
+.text-box h3 {
+  font-weight: 600;
+  text-align: left;
+}
+
+.text-box small {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fff;
+  right: -15px;
+}
+
+.right-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #fff;
+  left: -15px;
+}
+
+
+@media screen and (max-width: 2560px) {
+
+  .heading-container h1 {
+    font-size: 3em;
+  }
+
+  .heading-container p {
+    font-size: 2.4em;
+  }
+
+  .content {
+    padding: 10px 50px;
+    width: 90%;
+    top: 10vh;
+  }
+
+  .left-content {
+    left: -40%;
+  }
+
+  .content img {
+    width: 80px;
+  }
+
+  .right-content img {
+    left: -40px;
+  }
+
+  .left-content img {
+    right: -40px;
+  }
+
+  .text-box h3 {
+    font-size: 2.5em;
+  }
+
+  .text-box small {
+    font-size: 2em;
+  }
+
+  .text-box p {
+    font-size: 2.2em;
+  }
+
+}
+
+@media screen and (max-width: 2170px) {
+
+  .heading-container {
+    margin-top: 10vh;
+  }
+
+  .heading-container h1 {
+    font-size: 2em;
+  }
+
+  .heading-container p {
+    font-size: 1.8em;
+  }
+
+  .content {
+    width: 80%;
+  }
+
+  .left-content {
+    left: -30%;
+  }
+
+  .text-box h3 {
+    font-size: 2em;
+  }
+
+  .text-box small {
+    font-size: 1.8em;
+  }
+
+  .text-box p {
+    font-size: 1.8em;
+  }
+
+}
+
+@media screen and (max-width: 1930px) {
+
+  .content {
+    width: 65%;
+  }
+
+  .left-content {
+    left: -16%;
+  }
+
+  .right-content {
+    left: 51%;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+
+  .heading-container p {
+    font-size: 1.3em;
+  }
+
+  .content {
+    width: 50%;
+  }
+
+  .left-content {
+    left: 0;
+  }
+
+  .content img {
+    width: 40px;
+  }
+
+  .right-content img {
+    left: -30px;
+  }
+
+  .left-content img {
+    right: -20px;
+  }
+
+  .text-box h3 {
+    font-size: 1.5em;
+  }
+
+  .text-box small {
+    font-size: 1.3em;
+  }
+
+  .text-box p {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 1245px) {
+
+  .heading-container h1 {
+    font-size: 1.7em;
+  }
+
+  .heading-container p {
+    font-size: 1em;
+  }
+
+  .content img {
+    width: 30px;
+  }
+
+  .right-content img {
+    left: -25px;
+  }
+
+  .left-content img {
+    right: -15px;
+  }
+
+  .text-box h3 {
+    font-size: 1.2em;
+  }
+
+  .text-box small {
+    font-size: 1em;
+  }
+
+  .text-box p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .heading-container h1 {
+    font-size: 1.4em;
+  }
+
+  .heading-container p {
+    font-size: 1em;
+  }
+
+  .timeline::after {
+    width: 2px;
+  }
+
+  .content img {
+    width: 20px;
+  }
+
+  .right-content img {
+    left: -19px;
+  }
+
+  .left-content img {
+    right: -8px;
+  }
+
+  .text-box {
+    top: -2vh;
+  }
+
+  .text-box h3 {
+    font-size: 1em;
+  }
+
+  .text-box small {
+    font-size: 0.8em;
+  }
+
+  .text-box p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 630px) {
+
+  .heading-container h1 {
+    font-size: 1.2em;
+  }
+
+  .heading-container p {
+    font-size: 0.8em;
+    text-align: justify;
+  }
+
+  .timeline::after {
+    width: 2px;
+    left: 20%;
+  }
+
+  .right-content {
+    left: 20%;
+  }
+
+  .left-content {
+    left: 20%;
+  }
+
+  .left-container-arrow {
+    border-left: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -30px;
+  }
+
+  .content {
+    width: 80%;
+  }
+
+  .right-content img {
+    left: -12px;
+  }
+
+  .left-content img {
+    left: -12px;
+  }
+
+  .text-box h3 {
+    font-size: 1.1em;
+  }
+
+  .text-box small {
+    font-size: 0.9em;
+  }
+
+  .text-box p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  .heading-container {
+    width: 71vw;
+  }
+
+  .heading-container p {
+    font-size: 0.9em;
+  }
+
+  .timeline::after {
+    left: 0;
+  }
+
+  .right-content {
+    left: 0;
+  }
+
+  .left-content {
+    left: 0;
+  }
+
+  .left-container-arrow {
+    border-left: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -30px;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .text-box {
+    width: 78vw;
+    left: -20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .text-box {
+    width: 78vw;
+    left: -20px;
+  }
+}
