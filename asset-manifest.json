@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/jonnoliveira.github.io/static/css/main.194ef844.css",
-    "main.js": "/jonnoliveira.github.io/static/js/main.2326de7f.js",
+    "main.js": "/jonnoliveira.github.io/static/js/main.12fa498e.js",
     "static/js/787.1ed0c42c.chunk.js": "/jonnoliveira.github.io/static/js/787.1ed0c42c.chunk.js",
     "static/media/bg_universebottle.jpg": "/jonnoliveira.github.io/static/media/bg_universebottle.6446894311cecdc79431.jpg",
     "index.html": "/jonnoliveira.github.io/index.html",
     "main.194ef844.css.map": "/jonnoliveira.github.io/static/css/main.194ef844.css.map",
-    "main.2326de7f.js.map": "/jonnoliveira.github.io/static/js/main.2326de7f.js.map",
+    "main.12fa498e.js.map": "/jonnoliveira.github.io/static/js/main.12fa498e.js.map",
     "787.1ed0c42c.chunk.js.map": "/jonnoliveira.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.194ef844.css",
-    "static/js/main.2326de7f.js"
+    "static/js/main.12fa498e.js"
   ]
 }
