@@ -16,8 +16,9 @@
 
 .name-container {
   position: absolute;
-  top: 35vh;
-  left: 35vw;
+  top: 30vh;
+  left: 10vw;
+  right: 10vw;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -26,7 +27,7 @@
 
 .name-container h2 {
   font-weight: 200;
-  font-size: 2em;
+  font-size: 1.3em;
   border: 1px solid #fff;
   border-top: none;
   border-left: none;
@@ -34,7 +35,7 @@
 }
 
 .metamorphosis {
-  width: 50vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -46,8 +47,8 @@
   position: absolute;
   transform: translate(-50% -50%);
   animation: morph-effect 10s infinite ease-in-out;
-  font-weight: 200;
-  font-size: 3em;
+  font-weight: 400;
+  font-size: 1.5em;
 }
 
 .metamorphosis h1:nth-child(1) {
@@ -56,6 +57,7 @@
 
 .metamorphosis h1:nth-child(1) {
   animation-delay: -5s;
+
 }
 
 @keyframes morph-effect {
@@ -87,8 +89,8 @@
 }
 
 .arrow {
-  width: 10px;
-  height: 40px;
+  width: 5px;
+  height: 28px;
   background: #fff;
   border-radius: 5px;
   margin: 6px;
@@ -118,233 +120,56 @@
   }
 }
 
-/* 
-@media screen and (max-width: 2560px) {
-
-  .name-contents h2 {
-    font-size: 3em;
+@media screen and (min-width: 426px) {
+  .name-container h2 {
+    font-size: 1.7em;
   }
 
-  .name-contents h1 {
-    font-size: 6em;
-  }
-
-  .name-contents p {
-    font-size: 3em;
-  }
-
-  .arrow {
-    width: 20px;
-    height: 60px;
+  .metamorphosis h1 {
+    margin-top: 5vh;
+    font-size: 2.5em;
   }
 }
 
-@media screen and (max-width: 2170px) {
-
-  .name-contents h2 {
+@media screen and (min-width: 1024px) {
+  .name-container h2 {
     font-size: 2em;
   }
 
-  .name-contents h1 {
-    font-size: 5em;
+  .metamorphosis h1 {
+    margin-top: 5vh;
+    font-size: 3.2em;
   }
+}
 
-  .name-contents p {
+@media screen and (min-width: 1440px) {
+  .name-container h2 {
     font-size: 2em;
   }
 
-  .arrow {
-    width: 20px;
-    height: 60px;
-  }
-}
-
-@media screen and (max-width: 1927px) {
-
-  .arrow {
-    width: 15px;
-    height: 50px;
-  }
-}
-
-@media screen and (max-width: 1650px) {
-
-  .name-container {
-    left: 35vw;
-  }
-
-  .name-contents h1 {
-    font-size: 4em;
-  }
-
-  .arrow {
-    width: 15px;
-    height: 50px;
-  }
-
-}
-
-@media screen and (max-width: 1440px) {
-
-  .name-container {
-    left: 35vw;
-  }
-
-  .name-contents h2 {
-    font-size: 1.4em;
-  }
-
-  .name-contents h1 {
-    font-size: 3em;
-  }
-
-  .name-contents p {
-    font-size: 1.4em;
-  }
-
-  .arrow-container {
-    top: 35vh;
+  .metamorphosis h1 {
+    margin-top: 5vh;
+    font-size: 3.2em;
   }
 
   .arrow {
     width: 10px;
-    height: 40px;
+    height: 37px;
   }
 }
 
-@media screen and (max-width: 1024px) {
-
-  .name-container {
-    left: 46vw;
+@media screen and (min-width: 2560px) {
+  .name-container h2 {
+    font-size: 4em;
   }
 
-  .name-contents h2 {
-    font-size: 1.2em;
-  }
-
-  .name-contents h1 {
-    font-size: 2em;
-  }
-
-  .name-contents p {
-    font-size: 1.2em;
-  }
-
-  .arrow-container {
-    top: 30vh;
+  .metamorphosis h1 {
+    margin-top: 5vh;
+    font-size: 6.5em;
   }
 
   .arrow {
-    width: 6px;
-    height: 30px;
+    width: 25px;
+    height: 75px;
   }
 }
-
-@media screen and (max-width: 768px) {
-
-  .name-container {
-    left: 45vw;
-    top: 35vh;
-  }
-
-  .name-contents h2 {
-    font-size: 1.1em;
-  }
-
-  .name-contents h1 {
-    font-size: 1.6em;
-  }
-
-  .name-contents p {
-    font-size: 1.1em;
-  }
-}
-
-@media screen and (max-width: 630px) {
-
-  .name-container {
-    left: 35vw;
-    top: 35vh;
-  }
-
-  .name-contents h2 {
-    font-size: 1em;
-  }
-
-  .name-contents h1 {
-    font-size: 1.6em;
-  }
-
-  .name-contents p {
-    font-size: 1em;
-  }
-}
-
-@media screen and (max-width: 530px) {
-
-  .name-container {
-    left: 25vw;
-  }
-
-  .arrow-container {
-    top: 25vh;
-    left: 30vw;
-  }
-
-  .arrow {
-    width: 5px;
-    height: 28px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-
-  .home-container::before {
-    height: 85%;
-  }
-
-  .name-contents h1 {
-    font-size: 1.4em;
-  }
-
-  .arrow-container {
-    top: 35vh;
-    left: 25vw;
-  }
-
-  .arrow {
-    width: 3px;
-    height: 22px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-
-  .name-contents h2 {
-    font-size: 0.9em;
-    font-weight: 500;
-
-  }
-
-  .name-contents h1 {
-    font-size: 1.2em;
-    font-weight: 500;
-
-  }
-
-  .name-contents p {
-    font-size: 0.8em;
-    font-weight: 500;
-  }
-}
-
-@media screen and (max-width: 320px) {
-
-  .name-contents h1 {
-    font-size: 1em;
-  }
-
-  .name-contents p {
-    font-size: 0.7em;
-  }
-} */

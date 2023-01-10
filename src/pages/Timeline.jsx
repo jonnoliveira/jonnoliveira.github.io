@@ -4,16 +4,16 @@ import './Timeline.css';
 function Timeline() {
   return (
     <section className="container" id="timeline">
-        <div className="presentation-container">
-          <div className="heading-container">
-            <h1>
-              This is my Timeline
-            </h1>
-            <p>
-              It's a pleasure to meet you here. Below you can see some events that shaped me into who I'm today.
-            </p>
-          </div>
+      <div className="presentation-container">
+        <div className="heading-container">
+          <h1>
+            This is my Timeline
+          </h1>
+          <p>
+            It's a pleasure to meet you here. Below you can see some events that shaped me into who I'm today.
+          </p>
         </div>
+      </div>
       <div className="timeline-container">
         <div className="timeline">
           {

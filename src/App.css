@@ -9,10 +9,11 @@
 }
 
 /*
-  2. Remove default margin, links and set default font 
+  2. Remove default margin, padding, links and set default font 
 */
 * {
   margin: 0;
+  padding: 0;
   font-family: 'Lexend Deca', sans-serif;
 }
 

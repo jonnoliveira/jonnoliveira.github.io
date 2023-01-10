@@ -19,7 +19,7 @@ function Portfolio() {
   return (
     <section className="portfolio-container" id="portfolio">
       <div className="description-portfolio-container">
-        <div className="portfolio-description">
+        <div className="description-portfolio">
           <h1>Portfolio</h1>
           <p>This is my portfolio. Here you'll find my personal and academic projects.</p>
         </div>
