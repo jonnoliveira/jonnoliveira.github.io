@@ -66,7 +66,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'teste',
-    description: 'In the Shopping cart project I was able to put into practice the knowledge acquired about Asynchronous JavaScript (Promises/Fetch/Async/Await). Using the TDD (Test Driven Development) method and ensuring good quality code with good test coverage, I simulated a shopping cart of a fully dynamic e-commerce that receives information from an API. See more below!',
+    description: 'In the Shopping cart project I was able to put into practice the knowledge acquired about Asynchronous JavaScript (Promises / Fetch / Async / Await). Using the TDD (Test Driven Development) method and ensuring good quality code with good test coverage, I simulated a shopping cart of a fully dynamic e-commerce that receives information from an API. See more below!',
   },
   {
     index: 5,
