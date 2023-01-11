@@ -151,6 +151,10 @@
 
 @media screen and (min-width: 768px) {
 
+  .contact-description {
+    width: 60vw;
+  }
+
   .contact-description p {
     font-size: 1em;
   }
@@ -175,6 +179,12 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+  .contact-description {
+    width: 60vw;
+    position: relative;
+    right: 5vw;
+  }
 
   .contact-description p {
     font-size: 1.1em;
