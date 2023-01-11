@@ -121,8 +121,8 @@ const projects = [
     alt: 'Lessons Learned project.',
     title: 'Lessons Learned',
     pages: true,
-    url: 'teste',
-    repository: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-01-lessons-learned/',
+    repository: 'https://github.com/jonnoliveira/trybe-project-01-lessons-learned',
     description: 'I used the main HTML tags to assemble the structure of the presented page and stylized it by changing the positioning, size, fonts and colors of the components through the application of CSS. This whole process was very important to understand in practice how the structure (HTML) of a page works and how the style (CSS) is applied to it. In addition, I could understand the best way to make a Layout and apply the Box Model concept. See more below!',
   },
 ]
