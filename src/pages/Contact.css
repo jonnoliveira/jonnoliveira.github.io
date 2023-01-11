@@ -4,26 +4,26 @@
   background: #000;
   display: flex;
   flex-direction: column;
-  padding-top: 17vh;
+  padding-top: 25vh;
 }
 
 .contact-description {
-  width: 60vw;
+  width: 55vw;
   display: flex;
   flex-direction: column;
   align-self: center;
   gap: 1em;
-  padding-right: 1em;
   padding-bottom: 2em;
-  border: 2px solid #fff;
-  border-top-width: 0;
-  border-left-width: 0;
-  border-bottom-width: 0;
   text-align: center;
 }
 
 .contact-description h1 {
   font-size: 1.5em;
+  padding-right: 1em;
+  border: 2px solid #fff;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
 }
 
 .contact-description p {
@@ -197,11 +197,11 @@
 @media screen and (min-width: 1440px) {
 
   .contact-description h1 {
-    font-size: 1.7em;
+    font-size: 1.8em;
   }
 
   .contact-description p {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .email img,
@@ -211,7 +211,7 @@
 
   .email p,
   .linkedin p {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 }
 

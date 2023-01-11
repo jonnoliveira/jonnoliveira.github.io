@@ -1,8 +1,8 @@
 .header {
   display: flex;
   justify-content: flex-end;
-  background: #03242dd2;
-  height: 15vh;
+  background: #000000cc;
+  height: 12vh;
   width: 100vw;
   z-index: 10;
   position: fixed;
@@ -10,7 +10,7 @@
 
 .hamburger {
   display: block;
-  margin-top: 3%;
+  margin-top: 1%;
   margin-right: 5%;
   background: none;
   border: none;
@@ -25,7 +25,7 @@
 
 .navbar-container {
   position: absolute;
-  top: 15vh;
+  top: 12vh;
   left: 0;
   right: 0;
   width: 100vw;
@@ -53,8 +53,8 @@
 }
 
 .active {
-  height: 45vh;
-  background: #03242dd2;
+  height: 42vh;
+  background: #000000d7;
 }
 
 .active .menu {
@@ -63,10 +63,7 @@
 
 @media screen and (min-width: 426px) {
   .header {
-    display: flex;
-    width: 100vw;
     background: #000;
-    z-index: 10;
   }
 
   .hamburger {

@@ -1,5 +1,5 @@
 .home-container {
-  height: 100vh;
+  min-height: 90vh;
   background: url("../media//bg_universebottle.jpg") no-repeat center;
   background-size: cover;
 }
@@ -7,8 +7,6 @@
 .home-container::before {
   content: '';
   position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, #0001 0%, #000 100%);
@@ -78,7 +76,7 @@
 
 .arrow-container {
   position: absolute;
-  top: 40vh;
+  top: 30vh;
   left: 40vw;
 }
 
@@ -149,7 +147,7 @@
 
   .metamorphosis h1 {
     margin-top: 5vh;
-    font-size: 3.2em;
+    font-size: 4.2em;
   }
 
   .arrow {

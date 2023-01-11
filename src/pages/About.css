@@ -14,27 +14,28 @@
 }
 
 .description-about-container {
-  margin-top: 25vh;
+  margin-top: 22vh;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
+  text-align: justify;
+}
+
+.description-about-container h1 {
+  margin-bottom: 3vh;
   padding-right: 1em;
   border: 2px solid #fff;
   border-top-width: 0;
   border-left-width: 0;
   border-bottom-width: 0;
-  text-align: center;
-}
-
-.description-about-container h1 {
-  margin-bottom: 3vh;
 }
 
 .social-media-container {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 8vh;
 }
 
 .social-media-contents {
@@ -220,16 +221,16 @@
 
 @media screen and (min-width: 1440px) {
   .image-container {
-    height: 270px;
-    width: 270px;
+    height: 350px;
+    width: 350px;
   }
 
   .description-about-container h1 {
-    font-size: 1.7em;
+    font-size: 1.8em;
   }
 
   .description-about-container p {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .social-media-contents {

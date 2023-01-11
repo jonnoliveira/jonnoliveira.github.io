@@ -5,7 +5,7 @@ function Contact() {
     <section className="contact-container" id="contact">
       <div className="contact-description">
         <h1>Contact Me</h1>
-        <p>If you wish to contact me, feel free to use the following methods. I look forward to it!</p>
+        <p>If you wish to contact me, feel free to send me an email or call me on linkedin. I look forward to it!</p>
       </div>
       <div className="contact-contents">
         <div className="contents">
