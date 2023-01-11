@@ -17,7 +17,7 @@ export default class App extends Component {
         <About />
         <Timeline />
         <Portfolio />
-        {/* <Contact/> */}
+        <Contact/>
       </main>
     )
   }

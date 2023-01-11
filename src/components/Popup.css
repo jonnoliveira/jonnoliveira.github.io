@@ -1,19 +1,23 @@
 .popup-container {
   position: absolute;
   z-index: 3;
-  background: #000;
   padding: 13vh 5vw 13vh 5vw;
+  background: #000;
+}
+
+.popup-contents {
+  position: relative;
 }
 
 .close-button-container {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   background: #fff;
   margin: 20px;
-  right: 5vw;
-  top: 5vh;
+  right: 35vw;
+  bottom: -14vh;
   border-radius: 50%;
 }
 
@@ -58,12 +62,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10vh;
 }
 
 .popup-contents h1 {
   padding-bottom: 2vh;
-  font-size: 2em;
+  font-size: 1.em;
   text-decoration: underline;
 }
 
@@ -71,18 +74,25 @@
   width: 90%;
   text-align: justify;
   line-height: 5vh;
-  font-size: 1.2em;
+  font-size: .8em;
+}
+
+.popup-links-container {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  margin-top: 7vh;
 }
 
 .link-repository,
 .link-github-pages {
-  width: 12vw;
+  width: 25vw;
   height: 8vh;
   position: relative;
   display: inline-block;
   background: #fff;
-  margin: 20px;
-  border-radius: 30px;
+  margin: 5px;
+  border-radius: 50px;
 }
 
 .link-repository::before,
@@ -94,8 +104,9 @@
   inset: 0;
   background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
   transition: 0.2s;
-  border-radius: 30px;
+  border-radius: 50px;
 }
+
 
 .link-repository:hover::before,
 .link-github-pages:hover::before {
@@ -119,5 +130,119 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 50px;
+}
+
+@media screen and (min-width: 425px) {
+  .popup-contents p {
+    font-size: 1em;
+  }
+
+  .close-button-container {
+    right: 37vw;
+    bottom: -14vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .popup-contents p {
+    font-size: .9em;
+  }
+
+  .close-button-container {
+    right: 0vw;
+    top: -5vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popup-contents p {
+    font-size: 1.1em;
+    line-height: 6vh;
+  }
+
+  .close-button-container {
+    right: 0vw;
+    top: -5vh;
+  }
+
+  .link-repository,
+  .link-github-pages {
+    width: 20vw;
+    height: 10vh;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .popup-contents {
+    gap: 8vh;
+  }
+
+  .popup-contents h1 {
+    font-size: 1.7em;
+    line-height: 6vh;
+  }
+
+  .popup-contents p {
+    font-size: 1.2em;
+    line-height: 6vh;
+  }
+
+  .close-button-container {
+    right: 0vw;
+    top: -5vh;
+  }
+
+  .link-repository,
+  .link-github-pages {
+    width: 20vw;
+    height: 10vh;
+  }
+
+  .link-repository a img,
+  .link-github-pages a img {
+    width: 3vw;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .popup-contents h1 {
+    font-size: 3.2em;
+    line-height: 6vh;
+  }
+
+  .popup-contents p {
+    font-size: 2.2em;
+    line-height: 8vh;
+  }
+
+  .close-button-container {
+    right: 0vw;
+    top: -5vh;
+  }
+
+  .link-repository,
+  .link-github-pages {
+    width: 15vw;
+    height: 10vh;
+    margin-left: 3vw;
+    border-radius: 50px;
+  }
+
+  .link-repository::before,
+  .link-repository::after,
+  .link-github-pages::before,
+  .link-github-pages::after {
+    border-radius: 50px;
+  }
+
+  .link-repository a,
+  .link-github-pages a {
+    border-radius: 50px;
+  }
+
+  .close-button-container {
+    width: 70px;
+    height: 70px;
+  }
 }

@@ -5,12 +5,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 15vh;
+  padding-top: 35vh;
+  gap: 5vh;
 }
 
 .description-portfolio-container {
   align-self: center;
-  width: 90vw;
+  width: 50vw;
   padding-right: 1em;
   border: 2px solid #fff;
   border-top-width: 0;
@@ -124,7 +125,7 @@
   }
 
   .card {
-    width: 25vw;
+    width: 20vw;
     height: 50vh;
   }
 
@@ -161,21 +162,36 @@
     font-size: 1.7em;
   }
 
-  /* .description-portfolio-container p {
-    font-size: 1.1em;
-  } */
+  .description-portfolio-container p {
+    font-size: 1.2em;
+  }
 
   .card {
-    width: 25vw;
+    width: 18vw;
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .description-portfolio h1 {
+    font-size: 3.2em;
+  }
+
+  .description-portfolio-container p {
+    font-size: 2.2em;
+  }
+
+  .card {
+    width: 18vw;
     height: 50vh;
   }
 
   .card-content h3 {
-    font-size: 1.2em;
+    font-size: 2.5em;
   }
 
   .button-content button {
-    font-size: 1em;
+    font-size: 1.8em;
     cursor: pointer;
   }
 }

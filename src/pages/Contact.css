@@ -1,54 +1,55 @@
 .contact-container {
-  min-height: 80vh;
+  min-height: 100vh;
   color: #fff;
   background: #000;
   display: flex;
   flex-direction: column;
-  padding-top: 5vh;
+  padding-top: 17vh;
 }
 
 .contact-description {
-  width: 40vw;
+  width: 60vw;
   display: flex;
   flex-direction: column;
   align-self: center;
-  gap: 2em;
+  gap: 1em;
   padding-right: 1em;
+  padding-bottom: 2em;
   border: 2px solid #fff;
   border-top-width: 0;
   border-left-width: 0;
   border-bottom-width: 0;
-  text-align: justify;
+  text-align: center;
+}
 
+.contact-description h1 {
+  font-size: 1.5em;
 }
 
 .contact-description p {
-  font-size: 1.2em;
+  font-size: .9em;
 }
 
 .contact-contents {
-  width: 100vh;
-  margin-top: 15vh;
   display: flex;
   align-self: center;
   justify-content: center;
-  gap: 2vw;
 }
 
 .contents {
   display: flex;
-  padding: 3vh 0 3vh 0;
-  gap: 5vw;
+  flex-direction: column;
+  margin-top: 15vh;
 }
 
 .email-content {
-  width: 24vw;
-  height: 4vw;
+  width: 90vw;
+  height: 10vh;
   position: relative;
   display: inline-block;
   background: #fff;
-  margin: 20px;
   color: #000;
+  margin: 10px;
 }
 
 .email-content::before,
@@ -82,17 +83,22 @@
 }
 
 .email img {
-  width: 2vw;
+  width: 10vw;
+}
+
+.email p {
+  font-size: .8em;
+  font-weight: 700;
 }
 
 .linkedin-content {
-  width: 24vw;
-  height: 4vw;
+  width: 90vw;
+  height: 10vh;
   position: relative;
   display: inline-block;
   background: #fff;
-  margin: 20px;
   color: #000;
+  margin: 10px;
 }
 
 .linkedin-content::before,
@@ -121,11 +127,111 @@
   background: #696767b0;
   z-index: 10;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 1vw;
 }
 
 .linkedin img {
-  width: 2vw;
+  width: 10vw;
+}
+
+.linkedin p {
+  font-size: .8em;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 425px) {
+
+  .email p,
+  .linkedin p {
+    font-size: .9em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .contact-description p {
+    font-size: 1em;
+  }
+
+  .email-content,
+  .linkedin-content {
+    display: flex;
+    align-self: center;
+    width: 60vw;
+    height: 10vh;
+  }
+
+  .email img,
+  .linkedin img {
+    width: 5vw;
+  }
+
+  .email p,
+  .linkedin p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .contact-description p {
+    font-size: 1.1em;
+  }
+
+  .email-content,
+  .linkedin-content {
+    display: flex;
+    align-self: center;
+    width: 40vw;
+    height: 10vh;
+  }
+
+  .email img,
+  .linkedin img {
+    width: 4vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .contact-description h1 {
+    font-size: 1.7em;
+  }
+
+  .contact-description p {
+    font-size: 1.2em;
+  }
+
+  .email img,
+  .linkedin img {
+    width: 3vw;
+  }
+
+  .email p,
+  .linkedin p {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+
+  .contact-description h1 {
+    font-size: 3.2em;
+  }
+
+  .contact-description p {
+    font-size: 2.2em;
+  }
+
+  .email img,
+  .linkedin img {
+    width: 3vw;
+  }
+
+  .email p,
+  .linkedin p {
+    font-size: 2.1em;
+  }
 }

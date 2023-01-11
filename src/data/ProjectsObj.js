@@ -7,7 +7,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'teste',
-    description: "This project simulates a financial expense control portfolio, with currency conversion and their quotations. It's possible to describe each expense in detail and even edit or delete each one individually. I used React, Redux and JavaScript to carry out all the project's programming logic, asynchronous requests to obtain economic data, HTML and CSS for structuring and styling, and RTL tests to assess the good behavior of the application."
+    description: "This project simulates a financial expense control portfolio, with currency conversion and their quotations. It's possible to describe each expense in detail and even edit or delete each one individually. I used React, Redux and JavaScript to carry out all the project's programming logic, asynchronous requests to obtain economic data, HTML and CSS for structuring and styling, and RTL tests to assess the good behavior of the application. See more below!"
   },
   {
     index: 11,
@@ -16,7 +16,7 @@ const projects = [
     title: 'Tests in React',
     pages: false,
     repository: 'teste',
-    description: "In this project I performed automated tests using the React Testing Library. Using Stryker I was able to verify the consistency of the tests created when they were able to detect the purposeful changes, or mutants, created in the application. Good tests help us avoid bugs in the application, ensuring that it works properly. Another benefit is being able to refactor the code with confidence that the behavior doesn't change.",
+    description: "In this project I performed automated tests using the React Testing Library. Using Stryker I was able to verify the consistency of the tests created when they were able to detect the purposeful changes, or mutants, created in the application. Good tests help us avoid bugs in the application, ensuring that it works properly. Another benefit is being able to refactor the code with confidence that the behavior doesn't change. See more below!",
   },
   {
     index: 10,
@@ -26,7 +26,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'teste',
-    description: "In this project, we created a dynamic e-commerce page with React. It's important to emphasize that it was a group work where we used the agile Kanban methodology in organizing the team for the project. We use requests, conditional rendering, componentization and component states, application routes, among other knowledge to create an e-commerce Front-End powered by a Mercado Livre API.",
+    description: "In this project, we created a dynamic e-commerce page with React. It's important to emphasize that it was a group work where we used the agile Kanban methodology in organizing the team for the project. We use requests, conditional rendering, componentization and component states, application routes, among other knowledge to create an e-commerce Front-End powered by a Mercado Livre API. See more below!",
   },
   {
     index: 9,
@@ -36,7 +36,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'teste',
-    description: "In the TrybeTunes project, in addition to componentization, I had the opportunity to work with the lifecycle of React components and with the creation of new routes for the application pages using the React Router. With that done it's possible to search and list albums and songs from various bands and artists. Even listen to the preview of each song and favorite your favorite songs.",
+    description: "In the TrybeTunes project, in addition to componentization, I had the opportunity to work with the lifecycle of React components and with the creation of new routes for the application pages using the React Router. With that done it's possible to search and list albums and songs from various bands and artists. Even listen to the preview of each song and favorite your favorite songs. See more below!",
   },
   {
     index: 8,
@@ -46,7 +46,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'teste',
-    description: "At Tryunfo I had a great opportunity to learn how to create a page using the componentization of the application's functions with React. In addition, I was able to use the state of the components to better manage the application's events. With all this it's possible to create new cards and list the existing cards in the deck.",
+    description: "At Tryunfo I had a great opportunity to learn how to create a page using the componentization of the application's functions with React. In addition, I was able to use the state of the components to better manage the application's events. With all this it's possible to create new cards and list the existing cards in the deck. See more below!",
   },
   {
     index: 7,
@@ -56,7 +56,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'teste',
-    description: "This project was my first contact with React and the possibility of componentizing the elements of an application, as well as their properties. That way I was able to create a page to list all the planets in the Solar System. In addition to the planets, I've also listed some of the more well-known space missions.",
+    description: "This project was my first contact with React and the possibility of componentizing the elements of an application, as well as their properties. That way I was able to create a page to list all the planets in the Solar System. In addition to the planets, I've also listed some of the more well-known space missions. See more below!",
   },
   {
     index: 6,
@@ -66,7 +66,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'teste',
-    description: 'In the Shopping cart project I was able to put into practice the knowledge acquired about Asynchronous JavaScript (Promises/Fetch/Async/Await). Using the TDD (Test Driven Development) method and ensuring good quality code with good test coverage, I simulated a shopping cart of a fully dynamic e-commerce that receives information from an API.',
+    description: 'In the Shopping cart project I was able to put into practice the knowledge acquired about Asynchronous JavaScript (Promises/Fetch/Async/Await). Using the TDD (Test Driven Development) method and ensuring good quality code with good test coverage, I simulated a shopping cart of a fully dynamic e-commerce that receives information from an API. See more below!',
   },
   {
     index: 5,
@@ -75,7 +75,7 @@ const projects = [
     title: 'Zoo functions',
     pages: false,
     repository: 'teste',
-    description: 'I simulated a zoo reporting system by developing a set of functions capable of retrieving information both about the animals, such as species and place of origin, as well as data about the people who collaborate with the maintenance and care of the place.',
+    description: 'I simulated a zoo reporting system by developing a set of functions capable of retrieving information both about the animals, such as species and place of origin, as well as data about the people who collaborate with the maintenance and care of the place. See more below!'
   },
   {
     index: 4,
@@ -84,7 +84,7 @@ const projects = [
     title: 'JavaScript: Unit Tests',
     pages: false,
     repository: 'teste',
-    description: 'Testing our application is extremely important to ensure the best functioning and user experience. In this project I performed unit tests using the Jest module of NodeJS to verify the correct functioning of the existing functions and the new functions implemented.',
+    description: 'Testing our application is extremely important to ensure the best functioning and user experience. In this project I performed unit tests using the Jest module of NodeJS to verify the correct functioning of the existing functions and the new functions implemented. See more below!',
   },
   {
     index: 3,
@@ -94,7 +94,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'teste',
-    description: 'In this project we should develop a form that returns user feedback. This was the first project in pairs simulating, basically, how the development of an application can work within a company and how soft skills are vital in interpersonal relationships. We use HTML, CSS and JavaScript for the implementations.',
+    description: 'In this project we should develop a form that returns user feedback. This was the first project in pairs simulating, basically, how the development of an application can work within a company and how soft skills are vital in interpersonal relationships. We use HTML, CSS and JavaScript for the implementations. See more below!',
   },
   {
     index: 2,
@@ -104,7 +104,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'teste',
-    description: 'The objective of this project was to create a frame composed of pixels and a palette of random colors. I used all the knowledge acquired in JavaScript to apply functions that gave dynamism to the page. Even through JavaScript I was able to manipulate both the HTML elements in order to modify the DOM elements and some CSS style features. This whole process was very important to understand how HTML, CSS and JavaScript elements work and correlate, being able to create a dynamic and interactive project.',
+    description: 'The objective of this project was to create a frame composed of pixels and a palette of random colors. I used all the knowledge acquired in JavaScript to apply functions that gave dynamism to the page. Even through JavaScript I was able to manipulate both the HTML elements in order to modify the DOM elements and some CSS style features. This whole process was very important to understand how HTML, CSS and JavaScript elements work and correlate, being able to create a dynamic and interactive project. See more below!',
   },
   {
     index: 1,
@@ -113,7 +113,7 @@ const projects = [
     title: 'Playground Functions',
     pages: false,
     repository: 'teste',
-    description: "In this project I used programming logic to implement functions in order to achieve a certain result. From the beginning it's important to know how to break big problems into smaller problems using programming logic in the resolution.",
+    description: "In this project I used programming logic to implement functions in order to achieve a certain result. From the beginning it's important to know how to break big problems into smaller problems using programming logic in the resolution. See more below!",
   },
   {
     index: 0,
@@ -123,7 +123,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'teste',
-    description: 'I used the main HTML tags to assemble the structure of the presented page and stylized it by changing the positioning, size, fonts and colors of the components through the application of CSS. This whole process was very important to understand in practice how the structure (HTML) of a page works and how the style (CSS) is applied to it. In addition, I could understand the best way to make a Layout and apply the Box Model concept.',
+    description: 'I used the main HTML tags to assemble the structure of the presented page and stylized it by changing the positioning, size, fonts and colors of the components through the application of CSS. This whole process was very important to understand in practice how the structure (HTML) of a page works and how the style (CSS) is applied to it. In addition, I could understand the best way to make a Layout and apply the Box Model concept. See more below!',
   },
 ]
 
