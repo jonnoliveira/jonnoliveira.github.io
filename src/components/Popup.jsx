@@ -19,12 +19,12 @@ function Popup(props) {
             ? (
               <div className="popup-links-container">
                 <div className="link-repository">
-                  <a href={ repository }>
+                  <a href={ repository } target="_blank" rel="noreferrer">
                     <img className="icon" src="https://cdn-icons-png.flaticon.com/512/1051/1051377.png" alt="github icon"/>
                   </a>
                 </div>
                 <div className="link-github-pages">
-                  <a href={ url }>
+                  <a href={ url } target="_blank" rel="noreferrer">
                     <img className="icon" src="https://cdn-icons-png.flaticon.com/512/2449/2449158.png" alt="github-pages icon"/>
                   </a>
                 </div>
