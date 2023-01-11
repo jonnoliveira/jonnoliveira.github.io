@@ -35,7 +35,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 8vh;
+  margin: 7vh 0 4vh 0;
 }
 
 .social-media-contents {
@@ -87,11 +87,11 @@
 .stacks {
   display: flex;
   align-self: center;
-  gap: 1vw;
+  gap: 4vw;
 }
 
 .stacks img {
-  width: 7vw;
+  width: 6vw;
 }
 
 @media screen and (min-width: 768px) {
