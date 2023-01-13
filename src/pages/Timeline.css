@@ -186,13 +186,6 @@
   }
 
   .left-container-arrow {
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 17px;
-    z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
     border-left: 15px solid #fff;
     border-right: 0;
     left: auto;
@@ -227,6 +220,10 @@
 
   .right-content .dot {
     left: -8px;
+  }
+
+  .right-container-arrow {
+    left: -14px;
   }
 }
 
