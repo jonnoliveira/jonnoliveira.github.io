@@ -1,21 +1,27 @@
 const timeline = [
     {
-    index: 7,
+    index: 8,
     title: 'Here we are. Today!',
     data: 'January, 2023',
     description: "I'm currently a full stack web development student. I have knowledge of some technologies such as HTML5, CSS3, JavaScript, Node, ReactJS, RTL and Redux. Curious, dedicated, lively, outgoing and always willing to learn more."
   },
   {
-    index: 6,
+    index: 7,
     title: 'The beginning of my studies as a full stack web developer',
     data: 'August, 2022',
     description: '5 months ago I decided to turn my life around. I always loved technology and decided to follow this path in programming and web development. Opportunity to make a difference, learn and create existing and non-existent solutions to recurring problems.',
   },
   {
-    index: 5,
+    index: 6,
     title: 'The pandemic!',
     data: '2020 - 2022',
     description: 'Difficult years. At work or at home. Time to recognize the strength of overcoming and reinvent yourself. I learned to be grateful not only for my life, but also for the lives of the people around me. I learned not to waste a chance to do good. We never know when the last time will be, do we?',
+  },
+  {
+    index: 5,
+    title: 'The Financial Market',
+    data: 'December, 2019',
+    description: 'In the meantime, I had the opportunity to study something that I was always curious and enthusiastic about: the financial market. I took the opportunity to start studying, theory and practice, investing and speculating in the national and international financial markets. In my opinion, a door to new opportunities for those interested in this topic.',
   },
   {
     index: 4,
