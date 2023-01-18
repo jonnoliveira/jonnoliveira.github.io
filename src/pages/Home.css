@@ -1,6 +1,6 @@
 .home-container {
   min-height: 75vh;
-  background: url("../media//bg_universebottle.jpg") no-repeat center;
+  background: url("/src/media/hot-bg.gif") no-repeat center;
   background-size: cover;
 }
 
