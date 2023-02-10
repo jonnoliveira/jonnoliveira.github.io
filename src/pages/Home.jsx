@@ -7,7 +7,7 @@ function Home() {
         <h2>Who am I?</h2>
           <div className="metamorphosis">
             <h1>Jonathas Assis de Oliveira</h1>
-            <h1>Full Stack Web Development Student</h1>
+            <h1>Front-end web Developer</h1>
           </div>
           <div className="arrow-container">
             <div className="arrow-contents">
