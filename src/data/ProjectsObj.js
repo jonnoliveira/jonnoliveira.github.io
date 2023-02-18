@@ -42,11 +42,11 @@ const projects = [
   {
     index: 11,
     src: 'https://cdn-icons-png.flaticon.com/512/4524/4524495.png',
-    alt: 'Tests in React project.',
+    alt: 'Tests in React.',
     title: 'Tests in React',
     pages: false,
     repository: 'https://github.com/jonnoliveira/trybe-project-12-react-testing-library',
-    description: "In this project I performed automated tests using the React Testing Library. Using Stryker I was able to verify the consistency of the tests created when they were able to detect the purposeful changes, or mutants, created in the application. Good tests help us avoid bugs in the application, ensuring that it works properly. Another benefit is being able to refactor the code with confidence that the behavior doesn't change. See more below!",
+    description: "In this project we run completed tests using a React Testing Library. With Stryker I was able to verify the consistency of the tests created when they were able to detect the proposed changes, or mutants, created in the application. Good tests help us to avoid bugs in the application, ensuring that it works correctly. Another benefit is being able to refactor the code with the certainty that the behavior will not change. See more below!",
   },
   {
     index: 10,
