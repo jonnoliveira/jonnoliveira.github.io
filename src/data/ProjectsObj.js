@@ -7,7 +7,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'https://github.com/jonnoliveira/trybe-project-15-starwars-planets-search',
-    description: "In the StarWars Planets Search project, we should develop an application capable of rendering a table composed of some planets from the Star Wars universe and their various characteristics. The differential in this application was the possibility of inserting several filters, both textual and numerical, and it is also possible to group simultaneous filters. In this project I used React with Context API and Hooks as the main technologies for sharing data between all levels of the application, as well as for state manipulation and management. Finally, for the tests I used RTL/Jest. See more below!"
+    description: "In the Star Wars Planets Search project, we should develop an application capable of rendering a table composed of some planets from the Star Wars universe and their various characteristics. The differential in this application was the possibility of inserting several filters, both textual and numerical, and it is also possible to group simultaneous filters. In this project I used React with Context API and Hooks as the main technologies for sharing data between all levels of the application, as well as for state manipulation and management. Finally, for the tests I used RTL/Jest. See more below!"
   },
   {
     index: 13,
@@ -27,7 +27,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'https://github.com/jonnoliveira/trybe-project-13-trybewallet',
-    description: "This project simulates a financial expense control portfolio, with currency conversion and their quotations. It's possible to describe each expense in detail and even edit or delete each one individually. I used React, Redux and JavaScript to carry out all the project's programming logic, asynchronous requests to obtain economic data, HTML and CSS for structuring and styling, and RTL tests to assess the good behavior of the application. See more below!"
+    description: "Through the Trybe Wallet project, I simulated a financial expense control portfolio, converting currencies and their quotations. It's possible to describe each expense in detail and even edit or delete each one individually. In short, I used React and Redux to carry out all the project's programming logic and global state management, asynchronous requests to obtain economic data, HTML and CSS for structuring and styling, and RTL tests to assess the application's good behavior.See more below!"
   },
   {
     index: 11,
