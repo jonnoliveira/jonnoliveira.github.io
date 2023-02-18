@@ -56,7 +56,7 @@ const projects = [
     pages: true,
     url: 'teste',
     repository: 'https://github.com/jonnoliveira/trybe-project-11-frontend-online-store',
-    description: "In this project, we created a dynamic e-commerce page with React. It's important to emphasize that it was a group work where we used the agile Kanban methodology in organizing the team for the project. We use requests, conditional rendering, componentization and component states, application routes, among other knowledge to create an e-commerce Front-End powered by a Mercado Livre API. See more below!",
+    description: "In this group project we created a dynamic e-commerce page with React. For this, we use the agile Kanban methodology in the coordination and organization of the team. Regarding the functionality of the application, we use React as a basis to perform requests, conditional rendering, componentization and states of components and application routes. In this way, we managed to develop an e-commerce Front-End powered by an API from Mercado Libre. See more below!",
   },
   {
     index: 9,
