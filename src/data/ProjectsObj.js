@@ -1,5 +1,15 @@
 const projects = [
   {
+    index: 15,
+    src: 'https://cdn-icons-png.flaticon.com/512/9757/9757044.png',
+    alt: 'Recipes app project',
+    title: 'Recipes app',
+    pages: true,
+    url: 'https://jonnoliveira.github.io/trybe-project-16-recipes-app/',
+    repository: 'https://github.com/jonnoliveira/trybe-project-16-recipes-app',
+    description: "The Recipes app project was designed by a group and aimed to develop a recipe web app with priority for the mobile version. In this app, the user could search for the food or drink by clicking on the search button or filtering with the specific buttons according to his will. In addition, it's possible to bookmark, share the link easily and follow the preparation of each recipe. To achieve these goals we use React, Context API, Hooks and API calls for dynamism and application functions. With RTL/Jest, we were able to test and guarantee the good functionality of the app. The structuring and diversification of the work was coordinated through the agile Kanban methodology. See more below!"
+  },
+  {
     index: 14,
     src: 'https://cdn-icons-png.flaticon.com/512/2590/2590375.png',
     alt: 'Star Wars Planet Search project',
