@@ -1,7 +1,7 @@
 const projects = [
     {
     index: 13,
-    src: '',
+    src: 'https://cdn-icons-png.flaticon.com/512/8776/8776742.png',
     alt: 'Trivia Game',
     title: 'Trivia Game',
     pages: true,
