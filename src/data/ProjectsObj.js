@@ -132,7 +132,7 @@ const projects = [
     alt: 'Art with Pixels project.',
     title: 'Art with Pixels',
     pages: true,
-    url: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-03-pixels-art/',
     repository: 'https://github.com/jonnoliveira/trybe-project-03-pixels-art',
     description: 'The objective of this project was to create a frame composed of pixels and a palette of random colors. I used all the knowledge acquired in JavaScript to apply functions that gave dynamism to the page. Even through JavaScript I was able to manipulate both the HTML elements in order to modify the DOM elements and some CSS style features. This whole process was very important to understand how HTML, CSS and JavaScript elements work and correlate, being able to create a dynamic and interactive project. See more below!',
   },
