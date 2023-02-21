@@ -122,7 +122,7 @@ const projects = [
     alt: 'Trybewarts project.',
     title: 'Trybewarts',
     pages: true,
-    url: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-04-trybewarts/',
     repository: 'https://github.com/jonnoliveira/trybe-project-04-trybewarts',
     description: 'In this project we should develop a form that returns user feedback. This was the first project in pairs simulating, basically, how the development of an application can work within a company and how soft skills are vital in interpersonal relationships. We use HTML, CSS and JavaScript for the implementations. See more below!',
   },
