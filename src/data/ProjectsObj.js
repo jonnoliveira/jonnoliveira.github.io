@@ -94,7 +94,7 @@ const projects = [
     alt: 'Shopping cart project.',
     title: 'Shopping cart',
     pages: true,
-    url: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-07-shopping-cart/',
     repository: 'https://github.com/jonnoliveira/trybe-project-07-shopping-cart',
     description: 'In the Shopping cart project I was able to put into practice the knowledge acquired about Asynchronous JavaScript (Promises / Fetch / Async / Await). Using the TDD (Test Driven Development) method and ensuring good quality code with good test coverage, I simulated a shopping cart of a fully dynamic e-commerce that receives information from an API. See more below!',
   },
