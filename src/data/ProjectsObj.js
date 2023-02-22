@@ -84,7 +84,7 @@ const projects = [
     alt: 'Solar System project.',
     title: 'Solar System',
     pages: true,
-    url: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-08-solar-system/',
     repository: 'https://github.com/jonnoliveira/trybe-project-08-solar-system',
     description: "This project was my first contact with React and the possibility of componentizing the elements of an application, as well as their properties. That way I was able to create a page to list all the planets in the Solar System. In addition to the planets, I've also listed some of the more well-known space missions. See more below!",
   },
