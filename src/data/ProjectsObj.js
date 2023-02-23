@@ -74,7 +74,7 @@ const projects = [
     alt: 'Tryunfo project.',
     title: 'Tryunfo',
     pages: true,
-    url: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-09-tryunfo/',
     repository: 'https://github.com/jonnoliveira/trybe-project-09-tryunfo',
     description: "At Tryunfo I had a great opportunity to learn how to create a page using the componentization of the application's functions with React. In addition, I was able to use the state of the components to better manage the application's events. With all this it's possible to create new cards and list the existing cards in the deck. See more below!",
   },
