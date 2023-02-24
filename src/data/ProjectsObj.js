@@ -64,7 +64,7 @@ const projects = [
     alt: 'TrybeTunes project.',
     title: 'TrybeTunes',
     pages: true,
-    url: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-10-trybetunes/',
     repository: 'https://github.com/jonnoliveira/trybe-project-10-trybetunes',
     description: "In the TrybeTunes project, in addition to componentization, I had the opportunity to work with the lifecycle of React components and with the creation of new routes for the application pages using the React Router. With that done it's possible to search and list albums and songs from various bands and artists. Even listen to the preview of each song and favorite your favorite songs. See more below!",
   },
