@@ -54,7 +54,7 @@ const projects = [
     alt: 'Front-end: Online Store project.',
     title: 'Front-end: Online Store',
     pages: true,
-    url: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-11-frontend-online-store/',
     repository: 'https://github.com/jonnoliveira/trybe-project-11-frontend-online-store',
     description: "In this group project we created a dynamic e-commerce page with React. For this, we use the agile Kanban methodology in the coordination and organization of the team. Regarding the functionality of the application, we use React as a basis to perform requests, conditional rendering, componentization and states of components and application routes. In this way, we managed to develop an e-commerce Front-End powered by an API from Mercado Libre. See more below!",
   },
