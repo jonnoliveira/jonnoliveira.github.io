@@ -24,4 +24,4 @@ yarn-error.log*
 
 any.js
 
-/src/data/ProjectsObj.js
+/src/data
