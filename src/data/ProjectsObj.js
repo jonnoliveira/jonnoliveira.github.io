@@ -33,9 +33,9 @@ const projects = [
     index: 12,
     src: 'https://cdn-icons-png.flaticon.com/512/7603/7603279.png',
     alt: 'Trybe Wallet project',
-    title: 'Trybe Wallet',
+    title: 'TrybeWallet',
     pages: true,
-    url: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-13-trybewallet/',
     repository: 'https://github.com/jonnoliveira/trybe-project-13-trybewallet',
     description: "Through the Trybe Wallet project, I simulated a financial expense control portfolio, converting currencies and their quotations. It's possible to describe each expense in detail and even edit or delete each one individually. In short, I used React and Redux to carry out all the project's programming logic and global state management, asynchronous requests to obtain economic data, HTML and CSS for structuring and styling, and RTL tests to assess the application's good behavior.See more below!"
   },
