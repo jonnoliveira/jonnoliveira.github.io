@@ -25,7 +25,7 @@ const projects = [
     alt: 'Trivia Game project',
     title: 'Trivia Game',
     pages: true,
-    url: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-14-trivia-game/',
     repository: 'https://github.com/jonnoliveira/trybe-project-14-trivia-game',
     description: "In the Tivia game project we use two API requests to access the data. We use React and Redux technologies for componentization and management of the global state of the application. As for the application of the tests, in order to guarantee a good quality of the code and its functioning, we used the RTL/jest. It was a great opportunity to develop this project, mainly because it is a group work, requiring communication and collaboration to achieve our goals. To do so, we use the Kanban of agile methodologies to organize tasks. See more below!"
   },
