@@ -15,7 +15,7 @@ const projects = [
     alt: 'Star Wars Planet Search project',
     title: 'Star Wars Planet Search',
     pages: true,
-    url: 'teste',
+    url: 'https://jonnoliveira.github.io/trybe-project-15-starwars-planets-search/',
     repository: 'https://github.com/jonnoliveira/trybe-project-15-starwars-planets-search',
     description: "In the Star Wars Planets Search project, we should develop an application capable of rendering a table composed of some planets from the Star Wars universe and their various characteristics. The differential in this application was the possibility of inserting several filters, both textual and numerical, and it is also possible to group simultaneous filters. In this project I used React with Context API and Hooks as the main technologies for sharing data between all levels of the application, as well as for state manipulation and management. Finally, for the tests I used RTL/Jest. See more below!"
   },
