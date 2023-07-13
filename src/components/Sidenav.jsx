@@ -21,7 +21,7 @@ function Sidenav() {
               <span className='pl-4'>Home</span>
             </a>
 
-            <a href="#Timeline" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <a href="#timeline" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
               <GrProjects size={20} />
               <span className='pl-4'>Timeline</span>
             </a>
@@ -49,7 +49,7 @@ function Sidenav() {
             <AiOutlineHome size={20} />
           </a>
 
-          <a href="#Timeline" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+          <a href="#timeline" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <GrProjects size={20} />
           </a>
 

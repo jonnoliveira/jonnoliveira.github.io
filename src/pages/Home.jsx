@@ -1,34 +1,38 @@
-import React from 'react'
-import { TypeAnimation } from 'react-type-animation'
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 function Home() {
   return (
-    <div id='home'>
+    <div id="home">
 
-      <img className="w-full h-screen object-cover scale-x-[-1]" src="src/assets/home-img.jpg" alt="home background image" />
+      <img
+        className="w-full h-screen object-cover scale-x-[-1]"
+        src="src/assets/home-img.jpg"
+        alt="Home image"
+      />
 
-      <div className='w-full h-screen absolute top-0 left-0 bg-white/60'>
+      <div className="w-full h-screen absolute top-0 left-0 bg-white/60">
 
-        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
+        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
 
-          <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>
+          <h1 className="sm:text-5xl text-4xl font-bold text-yellow-900">
             I'm Jonathas Oliveira
           </h1>
 
-          <h2 className='flex sm:text-4xl text-3xl pt-4 text-gray-800'>
+          <h2 className="flex sm:text-4xl text-3xl pt-4 text-yellow-900">
 
             <TypeAnimation
               sequence={[
-                "Developer",
+                'Developer',
                 1500,
-                "Coder",
+                'Coder',
                 1500,
-                "Tech Lover",
+                'Tech Lover',
                 1500,
-                "Gamer",
+                'Gamer',
                 1500,
-                "Nature Lover",
+                'Nature Lover',
                 1500,
               ]}
               wrapper="span"
@@ -39,17 +43,17 @@ function Home() {
 
           </h2>
 
-          <div className='flex justify-evenly pt-6 max-w-[200px] w-full'>
+          <div className="flex justify-evenly pt-6 max-w-[200px] w-full">
 
-            <FaLinkedinIn size={30} className='cursor-pointer' />
-            <FaGithub size={30} className='cursor-pointer' />
+            <FaLinkedinIn size={30} color={'#573e04'} className="cursor-pointer" />
+            <FaGithub size={30} color={'#573e04'} className="cursor-pointer" />
 
           </div>
 
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
