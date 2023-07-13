@@ -1,5 +1,6 @@
-import Home from './pages/Home'
 import Sidenav from './components/Sidenav'
+import Home from './pages/Home'
+import Timeline from './pages/Timeline'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Sidenav />
       <Home />
+      <Timeline />
     </div>
   )
 }
