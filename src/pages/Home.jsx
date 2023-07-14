@@ -8,7 +8,7 @@ function Home() {
     <div id="home">
 
       <img
-        className="w-full h-screen object-cover scale-x-[-1]"
+        className="w-full h-screen object-cover scale-x-[-1] brightness-75"
         src={bg_image}
         alt="Home image"
       />
