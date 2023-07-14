@@ -21,7 +21,7 @@ function TimeData({ year, title, duration, instituition, description }) {
             {duration} Year(s)
           </p>
 
-          <p className="text-sm  font-semibold text-[#573e04]">
+          <p className="text-sm font-semibold text-[#573e04]">
             {instituition}
           </p>
         </span>

@@ -4,7 +4,7 @@ import data from '../data/projectsData.js'
 
 function Projects() {
   return (
-    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 pt-8">
 
       <h1 className="text-4xl font-bold text-center text-[#573e04]">Projects</h1>
 
