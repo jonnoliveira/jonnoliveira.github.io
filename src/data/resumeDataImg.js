@@ -170,6 +170,58 @@ const allData = [
   othersData
 ]
 
+const lookingTechs = [
+  {
+    src: "https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+    alt: "React Native Shield",
+    id: 0,
+  },
+  {
+    src: "https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white",
+    alt: "Flutter Shield",
+    id: 1,
+  },
+  {
+    src: "https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white",
+    alt: "Amazon AWS Shield",
+    id: 2,
+  },
+  {
+    src: "https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white",
+    alt: "Google Cloud Shield",
+    id: 3,
+  },
+  {
+    src: "https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white",
+    alt: "Microsoft Azure Shield",
+    id: 4,
+  },
+  {
+    src: "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white",
+    alt: "MongoDB Shield",
+    id: 5,
+  },
+  {
+    src: "https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white",
+    alt: "Django Shield",
+    id: 6,
+  },
+  {
+    src: "https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white",
+    alt: "C# Shield",
+    id: 7,
+  },
+  {
+    src: "https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white",
+    alt: "Unity Shield",
+    id: 8,
+  },
+  {
+    src: "https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D",
+    alt: "VueJS Shield",
+    id: 9,
+  },
 
+]
 
-export default allData;
+export { allData, lookingTechs };

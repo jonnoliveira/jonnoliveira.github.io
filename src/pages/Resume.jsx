@@ -1,5 +1,5 @@
 import React from 'react'
-import allData from '../data/resumeDataImg'
+import { allData, lookingTechs } from '../data/resumeDataImg'
 
 function Resume() {
   return (
@@ -40,6 +40,18 @@ function Resume() {
             </div>
           ))
         }
+
+        <h4 className="text-xl font-semibold text-center text-[#573e04] mt-10">Keeping an eye on:</h4>
+
+        <div className="flex flex-wrap items-center justify-center">
+
+          {
+            lookingTechs.map(({ src, alt, id }) => (
+              <img key={id} src={src} alt={alt} />
+            ))
+          }
+
+        </div>
 
       </div>
     </div>
