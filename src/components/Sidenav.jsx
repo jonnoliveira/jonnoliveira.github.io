@@ -12,7 +12,11 @@ function Sidenav() {
 
   return (
     <div>
-      <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden' />
+      <AiOutlineMenu
+        onClick={handleNav}
+        size={30}
+        className='absolute top-10 right-10 z-[99] md:hidden'
+      />
       {
         nav && (
           <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
