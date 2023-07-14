@@ -5,7 +5,7 @@ import bg_image from '../assets/home_img.jpg';
 
 function Home() {
   return (
-    <div id="home">
+    <section id="home">
 
       <img
         className="w-full h-screen object-cover scale-x-[-1] brightness-75"
@@ -60,7 +60,7 @@ function Home() {
 
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
