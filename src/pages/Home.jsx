@@ -48,8 +48,13 @@ function Home() {
 
           <div className="flex justify-evenly pt-6 max-w-[200px] w-full">
 
-            <FaLinkedinIn size={30} color={'#573e04'} className="cursor-pointer" />
-            <FaGithub size={30} color={'#573e04'} className="cursor-pointer" />
+            <a target="_blank" href="https://www.linkedin.com/in/jonnoliveira/">
+              <FaLinkedinIn size={30} color={'#573e04'} className="cursor-pointer" />
+            </a>
+
+            <a target="_blank" href="https://github.com/jonnoliveira">
+              <FaGithub size={30} color={'#573e04'} className="cursor-pointer" />
+            </a>
 
           </div>
 

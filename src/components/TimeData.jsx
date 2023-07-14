@@ -8,7 +8,7 @@ function TimeData({ year, title, duration, instituition, description }) {
 
         <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white" />
 
-        <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
+        <span className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
           <p className="inline-block px-2 py-1 font-semibold text-white bg-[#573e04] rounded-md">
             {year}
           </p>
@@ -24,13 +24,13 @@ function TimeData({ year, title, duration, instituition, description }) {
           <p className="text-sm  font-semibold text-[#573e04]">
             {instituition}
           </p>
-        </p>
+        </span>
 
-        <p>
+        <span>
           <p className="my-2 font-normal text-stone-500 text-justify">
             {description}
           </p>
-        </p>
+        </span>
       </li>
     </ol >
   )

@@ -1,7 +1,7 @@
 const timeData = [
   {
     id: 3,
-    year: 2021,
+    year: 2022,
     title: "Full stack web development student",
     duration: 1,
     instituition: "Trybe",
@@ -11,7 +11,7 @@ const timeData = [
     id: 2,
     year: 2020,
     title: "Pandemic",
-    duration: 1,
+    duration: 2,
     instituition: "-",
     description: "Time to recognize the strength of overcoming and reinvent yourself."
   },
