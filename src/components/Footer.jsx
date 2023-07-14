@@ -4,7 +4,7 @@ import { TbBrandVite, TbBrandTailwind } from 'react-icons/tb';
 
 function Footer() {
   return (
-    <footer className="bg-[#573e04] w-full h-14 flex justify-center items-center">
+    <footer className="bg-[#573e04] w-full h-14 flex justify-center items-center dark:bg-black/95">
 
       <div className="flex justify-evenly items-center w-full opacity-50 max-w-[1040px] md:pl-20">
 

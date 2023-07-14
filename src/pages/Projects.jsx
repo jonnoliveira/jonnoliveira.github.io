@@ -4,11 +4,11 @@ import data from '../data/projectsData.js'
 
 function Projects() {
   return (
-    <section id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 pt-8">
+    <section id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 pt-8 dark:bg-black">
 
-      <h1 className="text-4xl font-bold text-center text-[#573e04]">Projects</h1>
+      <h1 className="text-4xl font-bold text-center text-[#573e04] dark:text-white">Projects</h1>
 
-      <p className="text-center py-8 text-[#573e04]">
+      <p className="text-center py-8 text-[#573e04] dark:text-white">
         This is my portfolio. Here you'll find some of my personal and academic projects.
       </p>
 

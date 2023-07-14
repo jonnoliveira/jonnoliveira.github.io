@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProjectItem({ image, title, link }) {
   return (
-    <div className="w-full relative flex items-center justify-center shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-br from-gray-500 to-gray-900">
+    <div className="w-full relative flex items-center justify-center shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-br from-gray-500 to-gray-900 dark:shadow-gray-800">
       <img
         src={image}
         alt={`${title}-project`}

@@ -5,9 +5,9 @@ function Contact() {
   const { form, handleChange, isValid } = useBtnValidate();
 
   return (
-    <section id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <section id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 dark:bg-black">
 
-      <h1 className="py-4 text-4xl font-bold text-center text-[#573e04]">
+      <h1 className="py-4 text-4xl font-bold text-center text-[#573e04] dark:text-white">
         Contact
       </h1>
 
@@ -21,7 +21,7 @@ function Contact() {
           <div className="flex flex-col">
             <label
               htmlFor="name"
-              className="uppercase text-sm py-2"
+              className="uppercase text-sm py-2 dark:text-white"
             >
               Name
             </label>
@@ -37,7 +37,7 @@ function Contact() {
 
           <div className="flex flex-col">
             <label
-              className="uppercase text-sm py-2"
+              className="uppercase text-sm py-2 dark:text-white"
               htmlFor="phone"
             >
               Phone Number
@@ -56,7 +56,7 @@ function Contact() {
 
         <div className="flex flex-col py-2">
           <label
-            className="uppercase text-sm py-2"
+            className="uppercase text-sm py-2 dark:text-white"
             htmlFor="email"
           >
             Email
@@ -73,7 +73,7 @@ function Contact() {
 
         <div className="flex flex-col py-2">
           <label
-            className="uppercase text-sm py-2"
+            className="uppercase text-sm py-2 dark:text-white"
             htmlFor="subject"
           >
             Subject
@@ -90,7 +90,7 @@ function Contact() {
 
         <div className="flex flex-col py-2">
           <label
-            className="uppercase text-sm py-2"
+            className="uppercase text-sm py-2 dark:text-white"
             htmlFor="message"
           >
             Message
@@ -106,7 +106,7 @@ function Contact() {
           ></textarea>
         </div>
         <button
-          className="bg-[#2c2003] text-gray-100 mt-4 w-full p-4 rounded-lg disabled:bg-[#8e6f26]"
+          className="bg-[#2c2003] text-gray-100 mt-4 w-full p-4 rounded-lg disabled:bg-[#8e6f26] dark:text-black dark:bg-white dark:disabled:bg-slate-500"
           disabled={!isValid()}
         >
           SEND MESSAGE

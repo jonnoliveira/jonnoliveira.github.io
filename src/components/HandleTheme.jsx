@@ -9,7 +9,7 @@ function HandleTheme() {
   return (
     <button
       onClick={handleThemeSwitch}
-      className="fixed top-10 left-10 z-[99]"
+      className="fixed top-10 left-10 z-[99] dark:text-white"
     >
       {
         theme === 'dark'
