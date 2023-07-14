@@ -5,12 +5,14 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import Footer from './components/Footer'
+import HandleTheme from './components/HandleTheme'
 
 function App() {
 
   return (
     <div>
       <Sidenav />
+      <HandleTheme />
       <main>
         <Home />
         <Resume />
