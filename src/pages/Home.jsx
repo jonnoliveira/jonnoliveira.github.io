@@ -13,7 +13,7 @@ function Home() {
         alt="Home image"
       />
 
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/60 dark:bg-black/90">
+      <div className="w-full h-screen absolute top-0 left-0 bg-white/60 dark:bg-black/70">
 
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center">
 
