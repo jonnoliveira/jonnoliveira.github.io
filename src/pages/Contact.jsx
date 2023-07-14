@@ -6,9 +6,11 @@ function Contact() {
 
   return (
     <section id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+
       <h1 className="py-4 text-4xl font-bold text-center text-[#573e04]">
         Contact
       </h1>
+
       <form
         action="https://getform.io/f/505cdba8-ff2c-4aac-bfa7-9ddfd7d1b313"
         method="POST"
