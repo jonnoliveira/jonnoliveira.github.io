@@ -8,7 +8,7 @@ function Home() {
 
       <img
         className="w-full h-screen object-cover scale-x-[-1]"
-        src="src/assets/home-img.jpg"
+        src="../assets/home_img.jpg"
         alt="Home image"
       />
 
