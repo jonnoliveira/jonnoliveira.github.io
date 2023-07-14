@@ -1,6 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import bg_image from '../assets/home_img.jpg';
 
 function Home() {
   return (
@@ -8,7 +9,7 @@ function Home() {
 
       <img
         className="w-full h-screen object-cover scale-x-[-1]"
-        src="../assets/home_img.jpg"
+        src={bg_image}
         alt="Home image"
       />
 
@@ -17,23 +18,25 @@ function Home() {
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
 
           <h1 className="sm:text-5xl text-4xl font-bold text-yellow-900">
-            I'm Jonathas Oliveira
+            Jonathas Oliveira
           </h1>
 
           <h2 className="flex sm:text-4xl text-3xl pt-4 text-yellow-900">
 
             <TypeAnimation
               sequence={[
-                'Developer',
-                1500,
+                'Call me Jonn!',
+                1000,
+                "I'm a Developer",
+                1000,
                 'Coder',
-                1500,
+                1000,
                 'Tech Lover',
-                1500,
+                1000,
                 'Gamer',
-                1500,
+                1000,
                 'Nature Lover',
-                1500,
+                2000,
               ]}
               wrapper="span"
               speed={50}
