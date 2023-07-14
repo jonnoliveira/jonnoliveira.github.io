@@ -22,7 +22,7 @@ function Resume() {
         </p>
 
         <p className="inline-block my-2 font-normal text-stone-500 text-justify">
-          My trajectory with programming started after the last global isolation events, where I had the opportunity to start my transition to the IT area, expanding my knowledge in the area. I intend to become a Senior Full Stack Web Developer and delve into mobile development. Always focusing on communication, learning and user experience.
+          My trajectory in programming began after the recent global isolation events, where I had the opportunity to start my transition to the IT area by taking an online course in full stack web development, being able to expand my knowledge in the area. I intend to become a Senior Full Stack Web Developer and delve into mobile development, always focusing on communication, learning, and user experience.
         </p>
       </div>
 
