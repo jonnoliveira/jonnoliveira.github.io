@@ -14,8 +14,13 @@ function Projects() {
 
       <div className="grid sm:grid-cols-2 gap-12">
         {
-          data.map(({ id, image, title }) => (
-            <ProjectItem key={id} image={image} title={title} />
+          data.map(({ id, image, title, link }) => (
+            <ProjectItem
+              key={id}
+              image={image}
+              title={title}
+              link={link}
+            />
           ))
         }
       </div>
