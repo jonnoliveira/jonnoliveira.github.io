@@ -17,7 +17,7 @@ function Home() {
 
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center">
 
-          <h1 className="sm:text-5xl text-4xl font-bold text-yellow-900">
+          <h1 className="sm:text-5xl lg:text-6xl text-4xl font-bold text-yellow-900 animate-bounce">
             Jonathas Oliveira
           </h1>
 
