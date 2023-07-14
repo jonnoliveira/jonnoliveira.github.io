@@ -15,7 +15,7 @@ function Sidenav() {
       <AiOutlineMenu
         onClick={handleNav}
         size={30}
-        className='absolute top-10 right-10 z-[99] md:hidden'
+        className='fixed top-10 right-10 z-[99] md:hidden'
       />
       {
         nav && (
