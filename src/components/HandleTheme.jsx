@@ -1,29 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { BsCloudMoonFill } from 'react-icons/bs'
 import { FaRegSun } from 'react-icons/fa'
+import useHandleTheme from '../hook/useHandleTheme'
 
 function HandleTheme() {
-  const [theme, setTheme] = useState(null)
-
-  useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
-  }, []);
-
-  useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [theme])
-
-  const handleThemeSwitch = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark');
-  }
+  const { theme, handleThemeSwitch } = useHandleTheme()
 
   return (
     <button
