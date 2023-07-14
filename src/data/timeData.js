@@ -5,7 +5,7 @@ const timeData = [
     title: "Full stack web development student",
     duration: 1,
     instituition: "Trybe",
-    description: "I have always been passionate about technology and, due to the isolation caused by the pandemic, I had the opportunity to start my studies in the area. I started my studies at Trybe, which has a program with more than 1,500 hours of online classes and addresses introduction to software development, front-end, back-end, computer science, software engineering, agile methodologies and behavioral skills."
+    description: "I have always been passionate about technology and, due to the isolation caused by the pandemic, I had the opportunity to start my studies in the area. I started my studies at Trybe, which has a program with more than 1,500 hours of online classes and addresses introduction to software development, front-end, back-end, computer science, software engineering, agile methodologies, and behavioral skills."
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const timeData = [
     title: "Pandemic",
     duration: 2,
     instituition: "-",
-    description: "Time to recognize the strength of overcoming and reinvent yourself."
+    description: "Now is the time to recognize the strength within you to overcome the challenges brought by the recent pandemic and reinvent yourself. Embrace resilience, adaptability, and innovation as you navigate through these uncertain times."
   },
   {
     id: 1,
