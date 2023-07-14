@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Timeline from './pages/Timeline'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import Resume from './pages/Resume'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Sidenav />
       <Home />
+      <Resume />
       <Timeline />
       <Projects />
       <Contact />
