@@ -2,7 +2,7 @@ import React from 'react'
 
 function TimeData({ year, title, duration, instituition, description }) {
   return (
-    <ol className="flex flex-col border-l border-stone-200">
+    <ol className="flex flex-col relative border-l border-stone-200">
 
       <li className="mb-10 ml-4">
 

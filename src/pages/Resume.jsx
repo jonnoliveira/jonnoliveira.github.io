@@ -30,11 +30,11 @@ function Resume() {
         <h4 className="text-xl font-semibold text-center text-[#573e04] mt-10">Technologies that I know</h4>
 
         {
-          allData.map((item) => (
-            <div className="flex flex-wrap items-center justify-center">
+          allData.map((item, i) => (
+            <div key={i} className="flex flex-wrap items-center justify-center">
               {
-                item.map(({ src, alt, index }) => (
-                  <img key={index} src={src} alt={alt} />
+                item.map(({ src, alt, id }) => (
+                  <img key={id} src={src} alt={alt} />
                 ))
               }
             </div>
