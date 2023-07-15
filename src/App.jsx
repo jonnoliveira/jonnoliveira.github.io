@@ -10,7 +10,7 @@ import HandleTheme from './components/HandleTheme'
 function App() {
 
   return (
-    <div>
+    <div className="dark:bg-black">
       <Sidenav />
       <HandleTheme />
       <main>

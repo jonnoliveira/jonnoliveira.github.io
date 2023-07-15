@@ -3,7 +3,7 @@ import { allData, lookingTechs } from '../data/resumeDataImg'
 
 function Resume() {
   return (
-    <section id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 pt-16 dark:bg-black">
+    <section id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 pt-16">
 
       <h1 className="text-4xl font-bold text-center text-[#573e04] mb-10 dark:text-white">
         Resume
