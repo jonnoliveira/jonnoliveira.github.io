@@ -41,7 +41,7 @@ function Resume() {
           ))
         }
 
-        <h4 className="text-xl font-semibold text-center text-[#573e04] mt-10 dark:text-white/70">Keeping an eye on:</h4>
+        <h4 className="text-xl font-semibold text-center text-[#573e04] mt-10 dark:text-white">Keeping an eye on:</h4>
 
         <div className="flex flex-wrap items-center justify-center">
 

@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import bg_image from '../assets/home_img.jpg';

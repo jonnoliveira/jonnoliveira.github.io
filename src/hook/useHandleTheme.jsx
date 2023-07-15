@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 function useHandleTheme() {
-  const [theme, setTheme] = useState("light")
+  const [theme, setTheme] = useState(null);
 
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -22,6 +22,7 @@ function useHandleTheme() {
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   }
+
   return { theme, handleThemeSwitch };
 }
 
