@@ -18,7 +18,7 @@ function Footer() {
           </a>
         </div>
 
-        <p className="text-white">
+        <p className="text-white text-[10px] sm:text-lg">
           Created by Jonathas Oliveira - 2023
         </p>
 
