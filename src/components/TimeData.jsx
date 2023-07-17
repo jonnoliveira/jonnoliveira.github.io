@@ -13,15 +13,15 @@ function TimeData({ year, title, duration, instituition, description }) {
             {year}
           </p>
 
-          <p className="text-lg font-semibold text-[#573e04] dark:text-white">
+          <p className="text-[14px] sm:text-lg font-semibold text-[#573e04] dark:text-white">
             {title}
           </p>
 
-          <p className="my-1 text-sm font-nomral leadin-none text-stone-400 ">
+          <p className="my-1 text-[10px] sm:text-sm font-nomral leadin-none text-stone-400 ">
             {duration} Year(s)
           </p>
 
-          <p className="text-sm font-semibold text-[#573e04] dark:text-white">
+          <p className="text-[10px] sm:text-sm font-semibold text-[#573e04] dark:text-white">
             {instituition}
           </p>
         </span>
